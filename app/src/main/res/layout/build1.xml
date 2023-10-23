@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/bg_alincor" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="-456dp"
+            android:background="@drawable/logo_alincor"
+            android:outlineAmbientShadowColor="@color/black" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:text="📌 92-A Rizal Street, Calamba City, Laguna"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="360dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Welcome to
+                                                              ALLIED INSPECTION CORROSION SERVICES, OPC!"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="204dp"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/alincor_pic1"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="ABOUT US"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="407dp"
+                android:layout_height="167dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/about_color"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ALINCOR was founded in 1987, and in only a few years in time, it has established itself a leader position in the Philippines specializing in the preparation, treatment, regeneration and maintenance, sand blasting, shot blasting, painting and floor coating of surfaces."
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <GridLayout
+                android:layout_width="337dp"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="1"
+                android:layout_marginBottom="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="12dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="35+"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="40sp" />
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:text="YEAR"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="12dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="100+"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="40sp" />
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:text="AWARDS"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="12dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="10,000+"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="40sp" />
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:text="CLIENTS"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="12dp"
+                    android:padding="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="5,000+"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="40sp" />
+
+                        <TextView
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:text="PROJECTS"
+                            android:textAlignment="center"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="388dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="346dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="48dp"
+                android:background="@drawable/vision" />
+            <TextView
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="VISION"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="We build long term relationship for our customers. We want to continue innovating and make use of the new technology that is available today, we strive to provide a more competent approach to the new challenges in terms of working environments and different government restriction. We would like to further grow our market share in terms of providing automatic abrasive blasting machine and be able to provide work opportunities to our countrymen."
+                android:textAlignment="center"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/mission" />
+            <TextView
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="MISSION"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="To develop high-performing technical people that deliver quality and successful projects, to perform for our customers the highest level of quality and timely turnover for our client, and to train and give better opportunities to our new employees so that they will be equipped technically when ever they want to look for better opportunities outside the Philippines."
+                android:textAlignment="center"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SERVICES"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginBottom="10sp"/>
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:background="@color/service"
+        android:rowCount="8">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="71dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s1_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="ABRASIVE BLASTING"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Surface preparation for Steel substrate is very important it is the main foundation of the coating or lining protection for both steel and concrete Substrate."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s2_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="TURBINE BLADE GRIT BLASTING"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Our customer is always delighted and satisfied for our services with regards to the annual maintenance of their Turbine blade and its components."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s3_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="STORAGE TANKS, PIPINGS, STEEL AND CONCRETE STRUCTURES"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="This facility is very essential in most of the plant operation."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s4_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="TRANSPORTSTION PROTECTION"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="As the markets has evolve, we have been very busy in the restoration of classic cars that involve meticulous concern in detail restoration."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s5_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="TRUCK BED LININGS"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Cargo trucks, truck beds are essential to abuse because of the loads and cargo that it carries and this needs a protection in order to preserve and prolong it service to its owners."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s6_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="PASSIVE FIREPROOFING"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="This division is developed and mastered by our technical applicators in order to serve the petrochemical plant, architectural structures and buildings."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s7_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="PRE-CONSTRUCTION SERVICES"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="We focused on the initial planning and design in providing international specification standards during the design stage in order to provide a good variety of option with regards to the prevention of corrosion problems during construction and plant operation."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s8_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="POST-CONSTRUCTION SERVICES"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="We do provide post construction and annual maintenance program in terms of anti-corrosion and waterproofing works."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="71dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s9_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="WATERPROOFING AND CONCRETE PROTECTION"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="We have a long list of completed projects in terms of protection on concrete substrate most specially on concrete roof decks, concrete storage tanks, secondary containments, elevated swimming pools."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="69dp"
+                android:background="@drawable/s10_alincor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="ONSITE ABRASIVE BLASTING"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="This team is ready to accommodate your on-site surface cleaning and preparation projects we have a fleet of mobile equipment that can be deployed any time and anywhere in the Philippines or the rest of the world where our services is required."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#2E2E2E"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="RRD BUILDERS"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOLLOW US ON SOCIAL MEDIAS!"
+        android:textSize="13sp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/twitter" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rrdbuilders@gmail.com"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="091234567891"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="091234567891"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="091234567891"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="126dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="647dp"
+            app:srcCompat="@drawable/message"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
