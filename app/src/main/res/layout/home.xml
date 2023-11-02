@@ -6,9 +6,7 @@
     android:id="@+id/homepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_3"
-
-    >
+    android:background="@drawable/bg_3">
 
 
     <View
@@ -25,463 +23,589 @@
         />
 
 
-    <GridLayout
-
-        android:id="@+id/grid_layout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/top_view"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="24dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="10dp"
-        android:columnCount="2"
-        android:rowCount="6">
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="174dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/homepic" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@color/colorWhite">
+        </androidx.appcompat.widget.SearchView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO
+                                    RRD BUILDERS!"
+            android:textAlignment="center"
+            android:layout_margin="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:text="Unlocking Service Excellence: RRD Builders –Your Path to Seamless Connections and Reliable Solutions."
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+        <GridLayout
+
+            android:id="@+id/grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/top_view"
+            android:columnCount="2"
+            android:rowCount="6">
 
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm1"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm1"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#23F86A0B">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/alincor_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ALINCOR"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#5234E13F">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/logo_alphaconstruct_circle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ALPHACONS"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm3"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#4B07510A">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/addplus_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ADDPLUS"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm4"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#37020C32">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/gruppo_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GRUPPO"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm5"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#2A6C0AFA">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lascon_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="LASCON"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm6"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#34FFEB3B">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/top_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="TOP-NOTCH"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm7"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#2DFD0101">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ell_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ELLCAD"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm8"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#2C11709C">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/mac_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="MACKINTOSH"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm9"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="5"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="#31000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ad_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="A and D"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/firm10"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_row="5"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="12dp"
+                android:padding="12dp"
+                app:cardCornerRadius="15dp"
+                android:visibility="invisible"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/civi_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Firm10"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:padding="10dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
+            android:background="#2E2E2E"
+            android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="71dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/logo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="RRD BUILDERS"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                android:textSize="13sp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="46dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/instagram" />
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
+                    android:id="@+id/facebook"
+                    android:layout_width="46dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:srcCompat="@drawable/facebook" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm1"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="46dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/twitter" />
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm2"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:textSize="13sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm2"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm3"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm3"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm4"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:text="rrdbuilders@gmail.com"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm4"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm5"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="3"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:text="091234567891"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm5"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm6"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="3"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
+                android:layout_height="wrap_content"
+                android:text="091234567891"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:text="091234567891"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorWhite"/>
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
+        </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm6"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm7"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="4"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm7"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm8"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="4"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm8"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm9"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="5"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm9"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/firm10"
-            android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:layout_row="5"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="12dp"
-            android:padding="12dp"
-            app:cardCornerRadius="15dp"
-            android:visibility="invisible"
-            app:cardElevation="12dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/civi_icon" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Firm10"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:text="RRD Builders © All rights reserved."
+            android:textAlignment="center"
+            android:textColor="#7AFFFFFF"/>
+    </LinearLayout>
 
 
-    </GridLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="155dp"
-        android:layout_height="134dp"
-        android:layout_alignBottom="@+id/top_view"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="130dp"
-        android:layout_marginBottom="49dp"
-        app:srcCompat="@drawable/bg" />
 
-    <SearchView
 
-        android:layout_width="wrap_content"
-        android:layout_height="27dp"
-        android:layout_columnWeight="1"
-        android:layout_above="@+id/grid_layout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_gravity="fill"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="94dp"
-        android:layout_marginBottom="52dp"
-        android:bottomLeftRadius="10dp"
-        android:background="@color/colorWhite">
 
-    </SearchView>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="144dp"
-        android:layout_height="40dp"
-        android:layout_above="@+id/grid_layout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="138dp"
-        android:layout_marginEnd="129dp"
-        android:layout_marginBottom="7dp"
-        android:text="WELCOME!"
-        android:textAlignment="center"
-        android:textStyle="bold" />
 
 
 

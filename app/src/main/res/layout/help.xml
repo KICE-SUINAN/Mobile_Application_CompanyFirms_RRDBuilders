@@ -44,6 +44,7 @@
                     app:cardCornerRadius="15dp"
                     app:cardElevation="20dp">
 
+
                     <LinearLayout
                         android:layout_width="330dp"
                         android:layout_height="match_parent"
@@ -52,6 +53,10 @@
                         android:layout_marginBottom="50dp"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="307dp"
+                            android:background="@drawable/help" />
                         <TextView
                             android:layout_width="230dp"
                             android:layout_height="wrap_content"
@@ -119,6 +124,10 @@
                             android:textAlignment="center"
                             android:textSize="12sp" />
 
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="307dp"
+                            android:background="@drawable/question" />
                         <TextView
                             android:layout_width="289dp"
                             android:layout_height="wrap_content"

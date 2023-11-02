@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="214dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/rateus" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="37dp"
+                android:text="Rate Us"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:background="@drawable/logo"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/star"
+                android:layout_centerInParent="true"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_marginTop="100dp"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="RRD BUILDERS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/twitter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rrdbuilders@gmail.com"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="#BFBDBD"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -62,7 +62,7 @@ public class Help extends AppCompatActivity {
         facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openFacebook("https://www.facebook.com/kiceng.suinan");
+                openFacebook("https://www.facebook.com/i.rishieeeeeee");
             }
 
             private void openFacebook(String s) {
@@ -76,7 +76,7 @@ public class Help extends AppCompatActivity {
         instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openInstagram("https://www.instagram.com");
+                openInstagram("https://www.instagram.com/irishieeeee_");
             }
 
             private void openInstagram(String s) {
@@ -108,6 +108,7 @@ public class Help extends AppCompatActivity {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 int itemId = item.getItemId();
                 if (itemId == R.id.home) {
                     Toast.makeText(Help.this, "Home Selected", Toast.LENGTH_SHORT).show();
@@ -118,6 +119,7 @@ public class Help extends AppCompatActivity {
 
                 } else if (itemId == R.id.account) {
                     Toast.makeText(Help.this, "Account Selected", Toast.LENGTH_SHORT).show();
+
                 } else if (itemId == R.id.help) {
                     Toast.makeText(Help.this, "Help Selected", Toast.LENGTH_SHORT).show();
                     Intent intent1 = new Intent(Help.this, Help.class);
@@ -127,21 +129,35 @@ public class Help extends AppCompatActivity {
 
                 } else if (itemId == R.id.about) {
                     Toast.makeText(Help.this, "About Us Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(Help.this, Help.class);
+                    Intent intent1 = new Intent(Help.this, AboutUs.class);
                     startActivity(intent1);
                     finish();
                     return true;
 
                 } else if (itemId == R.id.logout) {
                     Toast.makeText(Help.this, "Log out Selected", Toast.LENGTH_SHORT).show();
+
                 } else if (itemId == R.id.share) {
                     Toast.makeText(Help.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                    shareIntent.setType("text/plain");
+                    String shareText = "Promote RRD Builders on various platforms";
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
+                    Intent chooser = Intent.createChooser(shareIntent, "Share via");
+                    startActivity(chooser);
+                    return true;
+
                 } else if (itemId == R.id.rate) {
                     Toast.makeText(Help.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(Help.this, RateUs.class);
+                    startActivity(intent1);
+                    finish();
+                    return true;
                 }
                 return false;
             }
         });
+
     }
 
 

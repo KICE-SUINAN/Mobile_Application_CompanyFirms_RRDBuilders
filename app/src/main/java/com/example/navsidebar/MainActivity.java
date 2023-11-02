@@ -1,12 +1,15 @@
 package com.example.navsidebar;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import androidx.cardview.widget.CardView;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -18,13 +21,13 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private CardView firm1,firm2,firm3,firm4,firm5,firm6,firm7,firm8,firm9,aboutus;
+    private CardView firm1,firm2,firm3,firm4,firm5,firm6,firm7,firm8,firm9;
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ActionBarDrawerToggle drawerToggle;
     Toolbar toolbar;
 
-
+    ImageView facebook,twitter,instagram;
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+
+
+
     }
 
 
@@ -39,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         firm1 = findViewById(R.id.firm1);
         firm1.setOnClickListener(new View.OnClickListener() {
@@ -106,10 +114,55 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        facebook = findViewById(R.id.facebook);
+        twitter = findViewById(R.id.twitter);
+        instagram = findViewById(R.id.instagram);
 
 
+        twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openTwitter("https://www.twitter.com");
+            }
+
+            private void openTwitter(String s) {
+                Uri webpage = Uri.parse(s);
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
 
 
+        });
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFacebook("https://www.facebook.com/i.rishieeeeeee");
+            }
+
+            private void openFacebook(String s) {
+                Uri webpage = Uri.parse(s);
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
+        });
+        instagram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openInstagram("https://www.instagram.com/irishieeeee_");
+            }
+
+            private void openInstagram(String s) {
+                Uri webpage = Uri.parse(s);
+                Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
+        });
 
 
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -117,8 +170,6 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
 
         drawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close);
         drawerLayout.addDrawerListener(drawerToggle);
@@ -128,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 int itemId = item.getItemId();
                 if (itemId == R.id.home) {
                     Toast.makeText(MainActivity.this, "Home Selected", Toast.LENGTH_SHORT).show();
@@ -138,6 +190,7 @@ public class MainActivity extends AppCompatActivity {
 
                 } else if (itemId == R.id.account) {
                     Toast.makeText(MainActivity.this, "Account Selected", Toast.LENGTH_SHORT).show();
+
                 } else if (itemId == R.id.help) {
                     Toast.makeText(MainActivity.this, "Help Selected", Toast.LENGTH_SHORT).show();
                     Intent intent1 = new Intent(MainActivity.this, Help.class);
@@ -154,16 +207,31 @@ public class MainActivity extends AppCompatActivity {
 
                 } else if (itemId == R.id.logout) {
                     Toast.makeText(MainActivity.this, "Log out Selected", Toast.LENGTH_SHORT).show();
+
                 } else if (itemId == R.id.share) {
                     Toast.makeText(MainActivity.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                    shareIntent.setType("text/plain");
+                    String shareText = "Promote RRD Builders on various platforms";
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
+                    Intent chooser = Intent.createChooser(shareIntent, "Share via");
+                    startActivity(chooser);
+                    return true;
+
                 } else if (itemId == R.id.rate) {
                     Toast.makeText(MainActivity.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(MainActivity.this, RateUs.class);
+                    startActivity(intent1);
+                    finish();
+                    return true;
                 }
                 return false;
             }
         });
     }
 
+
+    
 
     @Override
     public void onBackPressed() {

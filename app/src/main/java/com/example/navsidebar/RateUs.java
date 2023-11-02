@@ -6,18 +6,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-
+//import android.support.v4.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.Toast;
+import android.os.Bundle;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class build2 extends AppCompatActivity {
+public class RateUs extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -35,8 +36,18 @@ public class build2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_build2);
+        setContentView(R.layout.activity_rate_us);
 
+        RatingBar star = findViewById(R.id.star);
+        star.setRating(2.5f);
+        star.setStepSize(0.5f);
+
+        star.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+                Toast.makeText(RateUs.this, "Rating: " + rating, Toast.LENGTH_SHORT).show();
+            }
+        });
 
         facebook = findViewById(R.id.facebook);
         twitter = findViewById(R.id.twitter);
@@ -88,16 +99,11 @@ public class build2 extends AppCompatActivity {
             }
         });
 
-
-
-
-
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
 
         drawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close);
@@ -111,34 +117,34 @@ public class build2 extends AppCompatActivity {
 
                 int itemId = item.getItemId();
                 if (itemId == R.id.home) {
-                    Toast.makeText(build2.this, "Home Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(build2.this, MainActivity.class);
+                    Toast.makeText(RateUs.this, "Home Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(RateUs.this, MainActivity.class);
                     startActivity(intent1);
                     finish();
                     return true;
 
                 } else if (itemId == R.id.account) {
-                    Toast.makeText(build2.this, "Account Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RateUs.this, "Account Selected", Toast.LENGTH_SHORT).show();
 
                 } else if (itemId == R.id.help) {
-                    Toast.makeText(build2.this, "Help Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(build2.this, Help.class);
+                    Toast.makeText(RateUs.this, "Help Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(RateUs.this, Help.class);
                     startActivity(intent1);
                     finish();
                     return true;
 
                 } else if (itemId == R.id.about) {
-                    Toast.makeText(build2.this, "About Us Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(build2.this, AboutUs.class);
+                    Toast.makeText(RateUs.this, "About Us Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(RateUs.this, AboutUs.class);
                     startActivity(intent1);
                     finish();
                     return true;
 
                 } else if (itemId == R.id.logout) {
-                    Toast.makeText(build2.this, "Log out Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RateUs.this, "Log out Selected", Toast.LENGTH_SHORT).show();
 
                 } else if (itemId == R.id.share) {
-                    Toast.makeText(build2.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RateUs.this, "Share Selected", Toast.LENGTH_SHORT).show();
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
                     String shareText = "Promote RRD Builders on various platforms";
@@ -148,8 +154,8 @@ public class build2 extends AppCompatActivity {
                     return true;
 
                 } else if (itemId == R.id.rate) {
-                    Toast.makeText(build2.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(build2.this, RateUs.class);
+                    Toast.makeText(RateUs.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(RateUs.this, RateUs.class);
                     startActivity(intent1);
                     finish();
                     return true;
@@ -158,11 +164,6 @@ public class build2 extends AppCompatActivity {
             }
         });
     }
-
-
-
-
-
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)){
@@ -173,9 +174,5 @@ public class build2 extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
-
-
-
 
 }
