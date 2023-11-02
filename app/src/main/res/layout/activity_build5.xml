@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    tools:context=".build3">
+    tools:context=".build5">
 
 
     <ScrollView
@@ -20,7 +20,7 @@
             android:layout_height="match_parent">
 
             <include
-                layout="@layout/build3"
+                layout="@layout/build5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center" />

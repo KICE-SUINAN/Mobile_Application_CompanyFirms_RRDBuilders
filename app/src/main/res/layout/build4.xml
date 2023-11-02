@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/gruppo_pic" />
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="222dp"
+            android:layout_marginBottom="-456dp"
+            android:background="@drawable/gruppo_logo"
+            android:outlineAmbientShadowColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="📌18th Flr Herrera Tower, 98 Rufino corner Valero, Salcedo Village, Makati, Makati City, Metro Manila"
+                android:textColor="@color/gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Welcome to
+                                              GRUPPO STRUKTURA Inc.!"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="109dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="STRUKTURA offers comprehensive structural engineering services, including planning, analysis, evaluation and design of multi-storey commercial buildings, residential and office condominiums."
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:background="@drawable/gruppo_pic14"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="ABOUT US"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="407dp"
+                android:layout_height="311dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/about_color"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Gruppo STRUKTURA Inc. (Structural Engineering/Construction) is a structural engineering firm committed to the highest standards of quality. We plan and design structures that are cost-effective, structurally safe, efficient, constructible and in harmony with the environment. We deliver quality design solutions of unparalleled value, helping our clients meet their objectives on schedule and within budget."
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="57dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/service_logo" />
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="SERVICES"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="218dp"
+                            android:layout_height="199dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/gruppo_pic5" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Structural Design and Analysis"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="They design and analyze the structural integrity of buildings and other structures."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="221dp"
+                            android:layout_height="188dp"
+                            android:background="@drawable/gruppo_pic15" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Construction Management"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="They oversee the construction process from start to finish, ensuring that projects are completed on time, within budget, and to the highest quality standards."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="223dp"
+                            android:layout_height="183dp"
+                            android:background="@drawable/gruppo_pic16" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Project Management"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="They manage all aspects of a project, from planning and design to construction and completion."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="229dp"
+                            android:layout_height="149dp"
+                            android:background="@drawable/gruppo_pic17" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Cost Estimation"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="They provide accurate estimates of the cost of a project, including materials, labor, and other expenses."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="221dp"
+                            android:layout_height="146dp"
+                            android:background="@drawable/gruppo_pic18" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Quality Assurance and Control"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="They implement and monitor quality assurance and control measures to ensure that projects meet the highest standards."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="RRD BUILDERS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/twitter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rrdbuilders@gmail.com"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="126dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="647dp"
+            app:srcCompat="@drawable/message"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

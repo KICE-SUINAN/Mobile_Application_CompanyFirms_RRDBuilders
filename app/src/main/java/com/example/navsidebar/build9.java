@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class build3 extends AppCompatActivity {
+public class build9 extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -35,7 +35,7 @@ public class build3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_build3);
+        setContentView(R.layout.activity_build9);
 
 
         facebook = findViewById(R.id.facebook);
@@ -110,8 +110,8 @@ public class build3 extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
                 if (itemId == R.id.home) {
-                    Toast.makeText(build3.this, "Home Selected", Toast.LENGTH_SHORT).show();
-                    Intent intent1 = new Intent(build3.this, MainActivity.class);
+                    Toast.makeText(build9.this, "Home Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(build9.this, MainActivity.class);
 
 
                     startActivity(intent1);
@@ -120,17 +120,17 @@ public class build3 extends AppCompatActivity {
                     return true;
 
                 } else if (itemId == R.id.account) {
-                    Toast.makeText(build3.this, "Account Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "Account Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.help) {
-                    Toast.makeText(build3.this, "Help Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "Help Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.about) {
-                    Toast.makeText(build3.this, "About Us Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "About Us Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.logout) {
-                    Toast.makeText(build3.this, "Log out Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "Log out Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.share) {
-                    Toast.makeText(build3.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "Share Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.rate) {
-                    Toast.makeText(build3.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(build9.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
                 }
                 return false;
             }
