@@ -123,8 +123,17 @@ public class build2 extends AppCompatActivity {
                     Toast.makeText(build2.this, "Account Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.help) {
                     Toast.makeText(build2.this, "Help Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(build2.this, Help.class);
+                    startActivity(intent1);
+                    finish();
+                    return true;
+
                 } else if (itemId == R.id.about) {
                     Toast.makeText(build2.this, "About Us Selected", Toast.LENGTH_SHORT).show();
+                    Intent intent1 = new Intent(build2.this, AboutUs.class);
+                    startActivity(intent1);
+                    finish();
+                    return true;
                 } else if (itemId == R.id.logout) {
                     Toast.makeText(build2.this, "Log out Selected", Toast.LENGTH_SHORT).show();
                 } else if (itemId == R.id.share) {

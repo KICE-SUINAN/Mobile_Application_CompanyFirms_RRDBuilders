@@ -19,4 +19,7 @@
     <color name="transparent">#00FFFFFF</color>
     <color name="service">#4199F69C</color>
     <color name="darkGray">#333223</color>
+    <color name="medyoTransparent">#7CFFFFFF</color>
+    <color name="medyoTransparent2">#5B000000</color>
+
 </resources>

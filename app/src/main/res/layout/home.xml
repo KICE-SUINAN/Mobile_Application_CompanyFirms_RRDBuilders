@@ -405,6 +405,7 @@
             android:layout_margin="12dp"
             android:padding="12dp"
             app:cardCornerRadius="15dp"
+            android:visibility="invisible"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -481,6 +482,7 @@
         android:text="WELCOME!"
         android:textAlignment="center"
         android:textStyle="bold" />
+
 
 
 </RelativeLayout>

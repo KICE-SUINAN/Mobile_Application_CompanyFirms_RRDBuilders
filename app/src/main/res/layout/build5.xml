@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/lascon_pic" />
+
+        <ImageView
+            android:layout_width="147dp"
+            android:layout_height="127dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="233dp"
+            android:layout_marginBottom="-456dp"
+            android:background="@drawable/lascon_logo"
+            android:outlineAmbientShadowColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="📌148 Brgy Sico, Lipa, Batangas"
+                android:textColor="@color/gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Welcome to LASCON BUILDERS!"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="109dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Lascon Builders is a main contractor specializing in house construction, refurbishment and new build developments across a range of sectors, predominantly within Region IV-A Calabarzon area. "
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:background="@drawable/lascon_pic4"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="ABOUT US"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="407dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/about_color"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Lascon Builders is a main contractor specializing in house construction, refurbishment and new build developments across a range of sectors, predominantly within Region IV-A Calabarzon area. We have developed an enviable reputation for producing quality products in a friendly and professional manner and this is founded on the open and honest relationships we develop with our Clients and Consultants. Expert staff is vital to the continued success and growth of our business and we invest in professional development to ensure our employees have the right skills to meet the demands of this evolving industry. We are proactive in introducing new technologies and modern construction techniques, but remain aware of the importance of retaining traditional craftsmanship"
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="57dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/service_logo" />
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:text="SERVICES"
+                            android:textAlignment="center"
+                            android:textColor="@color/red"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="218dp"
+                            android:layout_height="199dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/lascon_pic5" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Design and Planning"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="We always put ourselves on client’s idea and budget, we will develop a design concept that will suit your requirements. Upon approval of the design we go into detail from each aspect, structural, electrical, plumbing and architectural design. Following detailed bill of materials and cost estimate will be prepared."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="221dp"
+                            android:layout_height="188dp"
+                            android:background="@drawable/lascon_pic7" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Construction"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="We will provide complete manpower, technical expertise, materials and equipment throughout construction process. From layout, concrete and masonry, structural, metal, wood, painting, plumbing and electrical work till finishing."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="223dp"
+                            android:layout_height="215dp"
+                            android:background="@drawable/lascon_pic6" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Consultancy"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="On behalf of the owner we will act as the construction manager and representative for the construction of structures. We will provide detailed cost estimates, performance evaluation, project scheduling, and cost control and quality assurance."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="RRD BUILDERS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/twitter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rrdbuilders@gmail.com"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="126dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="647dp"
+            app:srcCompat="@drawable/message"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@color/medyoTransparent"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

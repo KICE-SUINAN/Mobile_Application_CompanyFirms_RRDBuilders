@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/logo" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="RRD Builders is a user-friendly mobile application that serves as a comprehensive platform for individuals seeking various services and professionals in the Philippines. The app is a project fabricated by a team of civil engineering students to facilitate the process of finding, connecting with, and contacting service providers in different company sectors."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:background="@drawable/ad_pic5"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="360dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="30dp"
+                android:text="Purpose"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="407dp"
+                android:layout_height="211dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/about_color"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="The primary purpose of RRD Builders is to simplify the process of finding and contacting service providers. It aims to bridge the gap between users and companies, making it easier for individuals to access the services they require. This app was created as a student project to address the needs of the local community and streamline the service discovery process."
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:background="@drawable/civil"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:text="Target Audience"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="407dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/about_color"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="RRD Builders primarily targets individuals and businesses in the Philippines who are in need of various services, including construction, engineering, and related sectors. The app is a valuable resource for those looking to connect with service providers, obtain quotes, or access information about different companies."
+                    android:textSize="15sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="RRD BUILDERS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/twitter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rrdbuilders@gmail.com"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@color/medyoTransparent2"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

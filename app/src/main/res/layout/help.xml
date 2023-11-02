@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="User Help"
+                            android:textAlignment="center"
+                            android:textColor="@color/darkGray"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="How do I search for services on RRD Builders?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="To search for services, simply open the app and use the search bar at the top. Enter keywords related to the service you're looking for, or browse through the different service sectors listed on the homepage."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="How can I get more information about a specific company or firm listed on RRD Builders?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="If you have questions about a particular company or firm, you can message RRD Builders directly through the app. We will provide you with the information you need."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Is RRD Builders free to use?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="Yes, using the RRD Builders app is completely free for users. There are no subscription fees or hidden charges."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="How do I reset my password if I forget it?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="If you forget your password, simply tap on the 'Forgot Password' link on the login screen. Follow the instructions to reset your password."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Is my personal information safe on RRD Builders?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="We take privacy and security seriously. Your personal information is protected, and we do not share it with third parties. For more information, please review our Privacy Policy in the app."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="How can I advertise my services on RRD Builders?"
+                            android:textAlignment="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="262dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20sp"
+                            android:text="If you're a service provider looking to promote your services, please visit our social medias or contact our support team for information on advertising and creating your business profile."
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#2E2E2E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="127dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="RRD BUILDERS"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RRD Builders is a mobile application designed to assist users in finding the essential services they require. We serve as a guiding platform to help users easily connect with the specific services they need. Whether it's finding a contractor, hiring a professional, or accessing various services, RRD Builders is your go-to app for seamless and convenient service discovery and contact."
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FOLLOW US ON SOCIAL MEDIAS!"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/instagram" />
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="46dp"
+                        android:layout_height="36dp"
+                        app:srcCompat="@drawable/twitter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rrdbuilders@gmail.com"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="091234567891"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:text="RRD Builders © All rights reserved."
+                android:textAlignment="center"
+                android:textColor="#7AFFFFFF"/>
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="126dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="647dp"
+            app:srcCompat="@drawable/message"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@color/medyoTransparent2"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

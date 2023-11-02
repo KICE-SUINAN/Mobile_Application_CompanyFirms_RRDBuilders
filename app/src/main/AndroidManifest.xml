@@ -13,6 +13,30 @@
         android:theme="@style/Theme.NavSideBar"
         tools:targetApi="31">
         <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".build9"
+            android:exported="false" />
+        <activity
+            android:name=".build8"
+            android:exported="false" />
+        <activity
+            android:name=".build7"
+            android:exported="false" />
+        <activity
+            android:name=".build6"
+            android:exported="false" />
+        <activity
+            android:name=".build5"
+            android:exported="false" />
+        <activity
+            android:name=".build4"
+            android:exported="false" />
+        <activity
             android:name=".build3"
             android:exported="false" />
         <activity

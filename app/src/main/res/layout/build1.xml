@@ -856,8 +856,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="43dp"
+            android:background="@color/medyoTransparent"
             android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme" />
+            android:theme="?attr/actionBarTheme"/>
 
 
     </RelativeLayout>
