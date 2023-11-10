@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "443909026056",
+    "firebase_url": "https://log-sign-cf58e-default-rtdb.firebaseio.com",
+    "project_id": "log-sign-cf58e",
+    "storage_bucket": "log-sign-cf58e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443909026056:android:c6949e0307b0794092bcbd",
+        "android_client_info": {
+          "package_name": "com.example.androidapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuXJykZkGFgUiz46dPQsyoDjHXJvvDDTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443909026056:android:a248a61d9a0c6fb192bcbd",
+        "android_client_info": {
+          "package_name": "com.example.atry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuXJykZkGFgUiz46dPQsyoDjHXJvvDDTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
